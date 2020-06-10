@@ -51,48 +51,61 @@
     "display_name":"DRAFTS",
     "decription":"Package Made by supllier but not ready for shipping",
     "access_level":[3],
-    "level":0
+    "level":0,
+    "next_statuses":[2]
 },
 {
     "id":2,
     "display_name":"WITH SUPLIER",
     "decription":"Package ready to ship to green mile",
     "access_level":[3,1],
-    "level":2
+    "level":2,
+    "next_statuses":[3]
 },
 {
     "id":3,
     "display_name":"AT GREEN MILE HUB",
     "decription":"Package that has arrived at hub and ready to be bundled",
     "access_level":[1,2,3],
-    "level":3
+    "level":3,
+    "next_statuses":[4,5]
 },
 {
     "id":4,
     "display_name":"REBUNDLING",
     "decription":"Package recieved by loader or even being rebundled",
     "access_level":[1,2,3,4],
-    "level":4
+    "level":4,
+    "next_statuses":[5]
 },
 {
     "id":5,
     "display_name":"ON FLEET",
     "decription":"Package put on Electric Car to the receiver",
     "access_level":[1,2,3,4],
-    "level":5
+    "level":5,
+    "next_statuses":[6,7]
 },
 {
     "id":6,
     "display_name":"DELIVERED",
     "decription":"Package recived by customer",
     "access_level":[1,2,3,4],
-    "level":6
+    "level":6,
+    "next_statuses":[]
 }
 ,
 {
     "id":7,
     "display_name":"RETURNED",
     "decription":"Package returned by customer",
+    "access_level":[1,2,3],
+    "level":7
+},
+{
+    "id":8,
+    "display_name":"CANCELLED",
+    "decription":"Package Cancel on the way or before delivery",
     "access_level":[1,2,3],
     "level":7
 }
