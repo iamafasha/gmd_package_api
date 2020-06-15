@@ -100,6 +100,7 @@
     "display_name":"RETURNED",
     "decription":"Package returned by customer",
     "access_level":[1,2,3],
+    "next_statuses":[],
     "level":7
 },
 {
@@ -107,6 +108,7 @@
     "display_name":"CANCELLED",
     "decription":"Package Cancel on the way or before delivery",
     "access_level":[1,2,3],
+    "next_statuses":[],
     "level":7
 }
 ]
