@@ -10,13 +10,22 @@
             "height":60
         },
         "weight":0.5,
-        "decription":"Hello am package one take me somewhere",
-        "name":"Pizaa to piza Heart",
+        "decription":"Powered by Flutterwave: Accepts Mastercard, Visa, Verve, Discover, AMEX, Diners Club and Union Pay.",
+        "name":"Portable Gas Cooker ",
         "labels":[2,3,6,4,8,4,0,8,5],
-        "destination":{
-            "longitude":434345345345,
-            "latitude":4309439349,
-            "name":"Kawempe Tulla Road"
+        "shipping":{
+            "firstName":"Isakiye",
+            "secondName":"Afasha",
+            "phone":"256783062777",
+            "email":"afashaisakiye@gmail.com",
+            "street_address":"Tulla Road",
+            "village":"kawempe",
+            "district":"Kampala",
+            "country":"ug",
+            "map":{
+                "longitude":434345345345,
+                "latitude":4309439349
+            }
         },
         "payment":{
             "payment_status_id":1,
