@@ -19,19 +19,13 @@
             "phone":"256783062777",
             "email":"afashaisakiye@gmail.com",
             "street_address":"Tulla Road",
-            "village":"kawempe",
+            "village":"Kawempe",
             "district":"Kampala",
             "country":"ug",
             "map":{
                 "longitude":434345345345,
                 "latitude":4309439349
             }
-        },
-        "payment":{
-            "payment_status_id":1,
-            "fee":2000,
-            "currency_id":1,
-            "paid":false
         }
     }
   ],
